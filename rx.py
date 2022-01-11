@@ -52,8 +52,8 @@ if ask == "1":
     read = file.read()
     tts = gTTS(read, lang=language)
     a = "sound"
-    tts.save(a + '.mp3')  # لحفظة كمقطع صوتي
-    # os.system(a+".mp3")# لتشغيل المقطع الصوتي
+    tts.save(a + '.mp3')  
+    # os.system(a+".mp3")
 elif ask == "2":
     print("""\033[0;31m
              ______________________________________
@@ -68,5 +68,5 @@ elif ask == "2":
             """)
     tts = gTTS(input("\033[0;34MenTer the text : "), lang=input("enter the LaNguGe --> "))
     a = "sound"
-    tts.save(a + '.mp3')  # لحفظة كمقطع صوتي
-    # os.system(a+".mp3")# لتشغيل المقطع الصوتي
+    tts.save(a + '.mp3')  
+    # os.system(a+".mp3")
