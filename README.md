@@ -13,8 +13,7 @@
 ` input text [2] `
 
 
-# Features
-- Use 24 known Bypasses for 403 
+
 
 # Installation
    * `git clone https://github.com/Al-khalid/Text-and-audio.git`
